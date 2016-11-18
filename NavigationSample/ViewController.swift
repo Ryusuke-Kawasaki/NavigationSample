@@ -29,11 +29,11 @@ class ViewController: UIViewController {
         self.navigationItem.backBarButtonItem = backButtonItem
         
         //右ボタンの設定
-        //let rightButtonItem = UIBarButtonItem(title: "Right", style: .Plain, target: nil, action: nil)
+        //let rightButtonItem = UIBarButtonItem(title: "Right", style: .plain, target: nil, action: nil)
         
         //右ボタンにアクションを実装
         let rightButtonItem = UIBarButtonItem(title: "Right", style: .plain, target: self, action: #selector(ViewController.pushRightButton(_:)))
-        
+
         self.navigationItem.rightBarButtonItem = rightButtonItem
         //タイトルの設定
         self.navigationItem.title = "title"
